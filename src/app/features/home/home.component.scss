@@ -1,0 +1,26 @@
+.default-home-wg{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+    font-family: "Acme", sans-serif;
+    font-style: normal;
+  background-color: #F2F1F1;
+  text-align: center;
+  .wg-text {
+    .wg-title{
+      color: #0052C5;
+      font-weight: 400;
+    }
+    .wg-desc{
+      color: #999;
+      text-transform: uppercase;
+      span{
+        padding: 5px;
+      }
+    }
+  }
+}
+
+

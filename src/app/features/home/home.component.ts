@@ -6,7 +6,7 @@ import {DefaultView} from "../../views-funnel/default";
   selector: 'app-home',
   templateUrl: './home.component.html',
   standalone: true,
-  styleUrls: ['./home.component.sass']
+  styleUrls: ['./home.component.scss']
 })
 export class HomeComponent implements OnInit{
 constructor(private postMate: PostmateService,private funnelView: DefaultView) {
